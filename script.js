@@ -36,8 +36,28 @@ function loco(){
           clickable: true,
         },
       });
-      
-    
-    
-    
+
+
 var tl = gsap.timeline()
+tl.to("#main1",{
+  y:"100vh",
+  scale:0.4,
+  duration:0
+})
+tl.to("#main1",{
+  y:"40vh",
+  duration:1,
+  delay:1
+})
+tl.to("#main1",{
+  y:"70vh",
+  rotate:720,
+  scale:.5,
+  duration:0.7
+})
+tl.to("#main1",{
+  y:"0vh",
+  // rotate:360,
+  scale:1,
+  duration:0.7
+})
